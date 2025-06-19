@@ -1,0 +1,360 @@
+/*body*/
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(img/fondooo.jpg);
+    background-repeat: none;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+/*header*/
+.header{
+    margin-top: 1rem;
+}
+
+
+.titulo{
+    text-align: center;  /*div titulo*/
+    border-style:outset;
+    border-color: #690505;
+    border-radius: 5px;
+    background-color: ;
+
+}
+
+.titulo h1{
+    color: #690505;
+    font-family: monospace;     /* h1 titulo*/
+    font-size: 40px;
+    margin: 1px;
+
+}
+
+
+/*navegador*/
+.header{
+   justify-items: center;
+}
+
+.menu{
+    text-align: center;
+    display: flex;
+    margin-top: 30px;
+    list-style: none;
+
+}
+
+.menu li a{
+    border-style:dashed;
+    border-color: #691b05;
+    border-radius: 5px;
+    margin: 5px;
+    padding:5px;
+    text-decoration: none;
+    color: #690505;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+
+}
+
+
+.menu a:hover{
+    border-color:#c9ab50;
+    color:#dddb7d;
+    transition: ease-in .3s;
+    border-radius: 10px;
+    text-decoration:dotted;
+    background-color: #690505;
+    
+}
+
+
+/*main*/
+/*section*/
+main{
+    display:flex;
+    margin-top: 30px;
+}
+.section1{
+    display: flex;
+    margin-right: 50%;
+    margin-top: 3%;
+    padding-left: 20%;
+   
+   
+}
+
+
+.section1-ingredientes{
+    border-style:inset;
+    border-color: #690505;
+    border-radius: 5px;
+    color: #000000;
+    margin-right: 50%;
+    text-align:start;
+    margin: auto;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 0px;
+    background-color: #e1bc42;
+    height: 370px;
+    
+    
+}
+
+.section1-ingredientes .titulo-ingredientes{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: oblique;
+    color: #690505;
+    border-style: dashed;
+    
+ 
+}
+
+.titulo-ingredientes{
+    text-align: center
+}
+
+.ul-ingredientes li{
+    list-style:;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(74, 26, 26);
+    width: 200px;
+
+    
+
+}
+
+
+
+/*section2*/
+
+
+
+.section2-preparacion{
+    border-style:inset;
+    border-color: #dcb139;
+    border-radius: 5px;
+    color: #e3e1d7;  
+    height: 600px;
+    padding: 20px;
+    padding-right:;
+    font-size: 20px;
+    margin-left: 45px;
+    padding: ;
+    background-color: #690505;
+
+    
+    
+    
+}
+
+.section2-preparacion .titulo-preparacion2{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: oblique;
+    color: #deb33d;
+    border-style:dashed;
+    border-width: 2px;
+    text-align: center;
+    
+}
+
+.ol-preparacion2 li{
+    list-style:inside;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(219, 187, 41);
+    justify-items: center;
+    margin: auto;
+    height: auto;
+    width: 550px;
+    list-style: decimal;
+
+    
+
+}
+
+
+footer{
+    background-color: #e0b548;
+    border-style: dashed;
+    border-color: #690505;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.parrafo-footer{
+
+    text-align: center;
+    padding: 1rem;
+    margin: 0%;
+    margin-top: 1rem;
+    font-size: 20px;
+    font-family:sans-serif;
+}
+
+.redes{
+    text-align: center;
+    margin: ;
+}
+
+.redes a img{
+    width: 50px;
+    justify-content: center;
+    padding: 1em;
+}
+
+
+.video{
+    text-align: center;
+    border-style: dashed;
+    border-color: #e8ba3c;
+    background-color: #891919;
+    justify-content: center;
+    margin-left: 450px;
+    margin-right: 450px;
+    width: 600px;
+    
+}
+
+.video h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif 25px;
+    text-align: center;
+    color: #dcb139;
+    padding: 1em;
+
+}
+
+
+
+/*HISTORIA*/
+
+.main-historia{
+    display: block;
+
+}
+
+.main-historia .section-1{
+    justify-content: center;
+    padding: 2em;
+    background-color: #690505;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #c9ab50;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-style: dashed;
+    border-color: #eab114;
+
+}
+
+
+.main-historia .section-2{
+    justify-content: center;
+    background-color: #690505;
+    text-align: center;
+    margin-top: 20px;
+    border-style:dashed;
+    border-color: #dcb139;
+    margin-left: 340px;
+    margin-right: 340px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+
+
+
+/*RECETAS*/
+.main-recetas{
+    text-align: center;
+    justify-content: center;
+}
+.section-recetas{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+    
+    
+}
+
+.receta1{
+    background-color:#dcb139;
+    padding: 2em;
+    margin: 1em;
+    color: #690505;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-style: dashed;
+    border-color: #691b05;
+    border-radius: 5px;
+
+}
+
+.receta1:hover{
+    background-color: #891919;
+    color: #dcb139;
+    transition: ease-in .2s
+}
+
+.receta2{
+    background-color: #dcb139;
+    padding: 2em;
+    margin: 1em;
+    color: #690505;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-style: dashed;
+    border-color: #691b05;
+    border-radius: 5px;
+
+}
+
+.receta2:hover{
+    background-color: #891919;
+    color: #dcb139;
+    transition: ease-in .2s
+}
+
+.receta3{
+    background-color: #dcb139;
+    padding: 2em;
+    margin: 1em;
+    color: #690505;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-style: dashed;
+    border-color: #691b05;
+    border-radius: 5px;
+
+}
+.receta3:hover{
+    background-color: #891919;
+    color: #dcb139;
+    transition: ease-in .2s
+}
+
+.section-recetas .receta1 img{
+    width: 360px;
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    border-style: dashed;
+    
+
+}
+
+.section-recetas .receta2 img{
+    width: 360px;
+    margin: 20px;
+    border-radius: 5px;
+    border-style: dashed;
+
+}
+
+.section-recetas .receta3 img{
+    width: 360px;
+    margin: 20px;
+    border-radius: 5px;
+    border-style: dashed;
+    
+
+}
